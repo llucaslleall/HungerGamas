@@ -1,0 +1,49 @@
+#principal {
+    background: transparent url('../img/img-principal.png') 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    opacity: 1;
+    height: 500px;
+    width: 100%;  
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#titulo {
+    padding-top: 20px;
+    width: 100%;
+}
+
+#entrar {
+    float: right;
+    margin-right: 20px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+#texto-principal {
+    text-align: center;
+    font: Bold 35px/43px Montserrat;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    margin: 18% 10% 0 10%;
+}
+
+#inscrever {
+    width: 80%;
+    margin: auto;
+}
+
+#button-addon2 {
+    color: #212529;
+    background-color: #ffc107;
+    border-color: #ffc107;
+}
+
+#texto-descricao {
+    text-align: center;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
