@@ -1,0 +1,8 @@
+# dependencies
+/conn
+
+# testing
+/conn
+
+# production
+/conn
