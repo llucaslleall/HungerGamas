@@ -151,13 +151,31 @@
                         </button>
                       </div>
                       <div class="col-md-7 col-sm-12" id="caixa-form">
-                        <form id="formulario">
+                        <form id="formulario"  method="POST" action="URL do seu time">
                           <div class="form-group">
-                            <input type="text" class="form-control" id="nome-form" placeholder="Nome completo">
+                            <input 
+                              type="text" 
+                              class="form-control"
+                              id="nome-form" 
+                              placeholder="Nome completo"
+                              name="name"
+                              type="text"
+                              pattern="^\D{2,}\s[\D\s]{2,}$"
+                              title="Digite seu nome completo"
+                              required>
                           </div>
                           <div class="form-group">
-                            <input type="text" class="form-control" id="email-form" placeholder="E-mail">
+                            <input 
+                              class="form-control" 
+                              id="email-form" 
+                              placeholder="E-mail"
+                              name="email"
+                              type="email"
+                              required
+                            >
                           </div>
+                          <input name="redirectTo" type="hidden" value="https://gama.academy" />
+                          <input name="debugMode" type="hidden" value="true" />
                           <button type="submit" class="btn btn-dark" id="bnt-enviar">Submit</button>
                         </form>
                       </div>
