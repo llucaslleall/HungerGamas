@@ -34,4 +34,10 @@
         margin-top: 4%;
         padding: 5% 0% 3% 0%;
     }
+
+    footer {
+        background-color: #FEEFD8;
+        padding: 10% 5% 5% 5%;
+        /* margin: 0 -15px; */
+    }
 }
