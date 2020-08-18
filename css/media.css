@@ -46,4 +46,19 @@
         width: 40%;
         line-height: 1.2;
     }
+
+    .jumbotron-with-background {
+        background-image: url('../img/ilustra.svg');
+        background-position: 100% 50%;
+        background-size: 200px;
+        padding-right: 5%;
+        
+        height: 350px;
+        border-radius: 60px;
+    }
+
+    .jumbotron a {
+        margin-left: 0;
+        margin-top:2%;
+    }
 }
