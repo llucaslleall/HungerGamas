@@ -1,0 +1,20 @@
+@media (max-width: 768px) {
+    #caixa-check {
+        height: 150px;    
+    }
+
+    #caixa-form {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 3%;
+    }
+
+    #seta-baixo {
+        display: inline;
+    }
+
+    #seta-lado {
+        display: none;
+    }
+}

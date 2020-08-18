@@ -140,3 +140,7 @@
 #formulario {
     width: 80%;
 }
+
+#seta-baixo {
+    display: none;
+}
