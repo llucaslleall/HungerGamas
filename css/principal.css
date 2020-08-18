@@ -79,10 +79,10 @@
     justify-content: space-between;
     float: left;
     height: 300px;
-    padding: 3% 0 3% 0;
+    padding: 3% 3%;
 }
 
-#caixa-complementar {
+#caixa-complementar, #caixa-esconde {
     margin-top: 4%;
     padding: 0 3% 0 3%;
 }
@@ -141,10 +141,11 @@
     width: 80%;
 }
 
-#seta-baixo {
+#seta-baixo, #caixa-esconde {
     display: none;
 }
 
 footer {
     margin-top: 10%;
 }
+

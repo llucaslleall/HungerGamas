@@ -1,6 +1,10 @@
 @media (max-width: 768px) {
     #caixa-check {
-        height: 150px;    
+        height: 150px;   
+    }
+
+    #caixa-texto {
+        margin: 0 3% 2% 3%; 
     }
 
     #caixa-form {
@@ -10,11 +14,15 @@
         margin-top: 3%;
     }
 
-    #seta-baixo {
+    #seta-baixo, #caixa-esconde {
         display: inline;
     }
 
-    #seta-lado {
+    #caixa-esconde {
+        margin: 0 3%;
+    }
+
+    #seta-lado, #caixa-complementar {
         display: none;
     }
 }
