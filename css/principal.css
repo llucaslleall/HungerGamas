@@ -5,11 +5,16 @@
     opacity: 1;
 }
 
+.saiba_button a {
+    background-color:#FCC7C9;
+    
+}
+
 .jumbotron-with-background {
     background-image: url('../img/ilustra.svg');
     background-position: 85% 50%;
     background-repeat: no-repeat;
-    background-color: #818181;
+    background-color: #463FA7;
     background-size: 300px;
     padding-right: 10%;
     
@@ -41,14 +46,7 @@
     margin-left: 50px;
 }
 
-.main-title {
-    text-align: left;
-    font: Bold 30px/69px Arial;
-    letter-spacing: 0px;
-    color: #000000;
-    opacity: 1;
-    margin-left: 80px;
-}
+
 
 .item1 {
     text-align: left;
@@ -59,11 +57,28 @@
     margin-left: 80px;
 }
 
-.rounded-circle {
-    width: 310px;
-    height: 311px;
+
+.text_item1 {
+    text-align: left;
+    font: normal normal normal 20px Open Sans;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 0.75;
     
 }
+
+
+.circle-box {
+    background-color:#9DEAA2;
+    border-radius: 50%;
+}
+
+
+/* .icone {
+    width: 80px;
+    height: 80px;  
+} */
+
 
 #caixa-texto {
     background-repeat: no-repeat;
@@ -97,11 +112,7 @@
     opacity: 1;
 }
 
-#parte3 {
-    margin-top: 8%;
-    display: flex;
-    justify-content: center;
-}
+
 
 
 #parte4 {
