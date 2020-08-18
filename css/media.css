@@ -25,4 +25,8 @@
     #seta-lado, #caixa-complementar {
         display: none;
     }
+
+    .corpo-conteudo {
+        padding: 0.5% 0% 5% 0%!important;
+    }
 }
