@@ -53,8 +53,9 @@
         background-size: 200px;
         padding-right: 5%;
         
-        height: 350px;
+        height: 300px;
         border-radius: 60px;
+        margin: 0 2%;
     }
 
     .jumbotron a {
