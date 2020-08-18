@@ -40,4 +40,10 @@
         padding: 10% 5% 5% 5%;
         /* margin: 0 -15px; */
     }
+
+    #texto-chamada {
+        font-size: 1.5em;
+        width: 40%;
+        line-height: 1.2;
+    }
 }

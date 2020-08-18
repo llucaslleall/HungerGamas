@@ -122,6 +122,7 @@
     letter-spacing: 0px;
     color: #000000;
     opacity: 1;
+    line-height: 1.2;
 }
 
 .titulo-1 {
@@ -208,4 +209,18 @@ footer {
     align-items: center;
     justify-content: center;
     color: #A5A19B;
+}
+
+#texto-chamada {
+    font-size: 2.2em;
+    width: 60%;
+    line-height: 1.2;
+}
+
+.jumbotron p{
+    margin-left: 0;
+}
+
+.jumbotron a{
+    margin-top: 0;
 }
