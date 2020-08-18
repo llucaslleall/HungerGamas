@@ -62,3 +62,36 @@
     height: 311px;
     
 }
+
+#caixa-texto {
+    background-repeat: no-repeat;
+    background-color: #818181;
+    height: 300px;
+    width: 80%;
+    border-radius: 50px;
+    float: left;
+}
+
+#caixa-check {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: space-between;
+    float: left;
+    height: 300px;
+    padding: 3% 0 3% 0;
+}
+
+#caixa-complementar {
+    margin-top: 4%;
+    padding: 0 3% 0 3%;
+}
+
+#texto-complementar {
+    text-align: left;
+    font: Regular 35px/40px Arial;
+    letter-spacing: 0px;
+    color: #978f8fe0;
+    opacity: 1;
+}
