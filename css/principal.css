@@ -235,3 +235,19 @@ footer {
 .jumbotron a{
     margin-top: 0;
 }
+
+/* Modal Obrigado */
+
+.webicons {
+    display: flex;
+}
+
+.text_thakyou {
+    margin-top: 1.5em;
+}
+
+.webicons .clique a {
+    text-decoration: none;
+    color: black
+}
+

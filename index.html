@@ -188,7 +188,7 @@
                           </div>
                           <input name="redirectTo" type="hidden" value="https://gama.academy" />
                           <input name="debugMode" type="hidden" value="true" />
-                          <button type="submit" class="btn btn-dark" id="bnt-enviar">Enviar</button>
+                          <button type="submit" class="btn btn-dark" id="bnt-enviar" data-toggle="modal" data-target="#thankyouModal">Enviar</button>
                         </form>
                       </div>
                     </div>                      
@@ -205,6 +205,49 @@
                       
                     </div>
                   </footer>
+
+                  <!-- Modal -->
+                  <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+  Launch demo modal
+</button>
+
+<!-- Modal -->
+                  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h4 class="modal-title">Obrigado!</h4>
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                          </button>
+                        </div>
+                        <div class="modal-body">
+                          <div class="container">
+                            <div class="row">
+                              <div class="col-5">
+                               <p>Ficamos felizes com seu interesse no nosso conteúdo! Para conhecer um pouco mais sobre como melhorar a performance da sua equipe, não deixe de nos seguir nas redes sociais!</p>
+                               <div class="webicons">
+                                 <a class="nav-link" href="#">
+                                  <img src="./img/instagram-web.png" alt="instagram_icon">
+                                 </a>
+                                 <a class="nav-link" href="#">
+                                  <img src="./img/facebook-web.png" alt="facebook_icon">
+                                 </a>
+                                </div>
+                               <h5 class="text_thakyou">Quer saber mais sobre a Cris?</h5>
+                               <a class="nav-link" href="#">Clique aqui.</a>
+                              </div>
+                              <div class="col-2">
+                                <img id="imgtk" src="./img/ilustra-thankyoupg-web.png" alt="thankyouIlustração">
+                              </div>
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- fim modal -->
 
          <!-- Bootstrap script-->
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
