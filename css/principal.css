@@ -67,7 +67,6 @@
     background-repeat: no-repeat;
     background-color: #818181;
     height: 300px;
-    width: 80%;
     border-radius: 50px;
     float: left;
 }
@@ -94,4 +93,50 @@
     letter-spacing: 0px;
     color: #978f8fe0;
     opacity: 1;
+}
+
+#parte3 {
+    margin-top: 8%;
+    display: flex;
+    justify-content: center;
+}
+
+
+#parte4 {
+    margin-top: 8%;
+    display: flex;
+    justify-content: center;
+}
+
+.titulo-1 {
+    text-align: left;
+    font: Regular 30px/69px Arial;
+    font-weight: bold;
+    font-size: 2em;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+
+.titulo-2 {
+    text-align: left;
+    font: Regular 38px/43px Arial;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+
+#bnt-enviar {
+    float: right;
+}
+
+#caixa-form {
+    display: flex;
+    width: 100%;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+#formulario {
+    width: 80%;
 }
