@@ -25,6 +25,7 @@
     }
 
     .caixa-campos {
+        padding-left: 3%;
         width: 85%;
         float: left;
     }
@@ -38,6 +39,11 @@
     #formulario {
         width: 100%;
     }
+    
+    .jumbotron-with-background {
+        background-position: 50% 50%;
+    }
+
 }
 
 @media (max-width: 768px) {
