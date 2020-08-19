@@ -231,7 +231,7 @@ footer {
     width: 70%;
     line-height: 1.2;
     font-weight: bold;
-    margin-bottom: 8%;
+    margin-bottom: 2%;
 }
 
 #texto-chamada-pequeno {
@@ -316,7 +316,7 @@ footer {
 .aparecer-medio {
     display: none;
     width: 100%;
-    padding: 0 4% 0 8%;
+    padding: 0 4% 0 4%;
 }
 
 .icone {
