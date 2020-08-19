@@ -193,16 +193,17 @@
         float: left;
         height: 10px;
     }
-}
 
-#parte1 {
-    background-color: black;
-}
-
-#parte2 {
-    background-color: blue;
-}
-
-#parte3 {
-    background-color: red;
+    .icone {
+        width: 200px;
+        height: 200px;
+        display:flex;
+        margin: auto;
+    }
+    
+    .icone img{
+        width: 120px;
+        height: 120px;
+        margin: auto;
+    }
 }
