@@ -130,7 +130,7 @@
     text-align: left;
     font: Regular 30px/69px Arial;
     font-weight: bold;
-    font-size: 2.2em;
+    font-size: 2.8em;
     letter-spacing: 0px;
     color: #000000;
     opacity: 1;
@@ -153,7 +153,8 @@
     letter-spacing: 0px;
     color: #000000;
     opacity: 1;
-    font-weight: bold;
+    font-size: 1.5em;
+    margin-bottom: 5%;
 }
 
 #bnt-enviar {
@@ -172,7 +173,7 @@
     margin-bottom: 0;
 }
 
-#seta-baixo, #caixa-esconde {
+#caixa-esconde {
     display: none;
 }
 
@@ -340,4 +341,19 @@ footer {
 .text-center {
     font-weight: bold;
     margin-top: 2%;
+}
+
+#assine-agora {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+#assine-agora button{
+    font-size: 1.7em;
+}
+
+#assine-agora svg{
+    font-size: 1.7em;
+    font-weight: bold;
 }

@@ -75,7 +75,7 @@
         margin-top: 3%;
     }
 
-    #seta-baixo, #caixa-esconde {
+    #caixa-esconde {
         display: inline;
     }
 
@@ -83,7 +83,7 @@
         margin: 0 3%;
     }
 
-    #seta-lado, #caixa-complementar {
+    #caixa-complementar {
         display: none;
     }
 
@@ -208,6 +208,6 @@
     }
 
     #caixa-texto {
-        padding: 10%;
+        padding: 8%;
     }
 }
