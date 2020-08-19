@@ -79,10 +79,6 @@
         height: 150px;   
     }
 
-    #caixa-texto {
-        margin: 0 3% 2% 3%; 
-    }
-
     #caixa-form {
         display: flex;
         align-items: center;
@@ -222,9 +218,6 @@
         margin: auto;
     }
 
-    #caixa-texto {
-        padding: 8%;
-    }
 
     #caixa-check{        
         display: flex;
