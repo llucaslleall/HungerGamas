@@ -1,6 +1,7 @@
 <DOCTYPE html>
     <head>
         <title>Mais Saúde</title>
+        <meta charset="utf-8">
 
         <!-- Bootstrap -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
@@ -46,11 +47,91 @@
                   </nav>
 
                   <!-- jumbotron -->
-                  <div class="jumbotron jumbotron-with-background">
-                    <p class="text-white" id="texto-chamada"> Como manter um ambiente de trabalho saudável com alta produtividade. </p>
-                   
-                    <a class="nav-link" href="#">Saiba mais</a>
+                <div class="row">
+                  <div class="sumir-grande">
+                    <div id="texto-chamada-pequeno"> Como manter um ambiente de trabalho saudável com alta produtividade. </div>
                   </div>
+                  <div class="jumbotron jumbotron-with-background">
+                    <div class="sumir-pequeno">
+                      <div class="text-white" id="texto-chamada"> Como manter um ambiente de trabalho saudável com alta produtividade. </div>
+                    </div>
+                    <div class="sumir-medio">
+                    <div id="caixa-form" class="row">
+                      <form id="formulario"  method="POST" action="https://smtl.gama.academy/leads/7f2b9632-dcac-11ea-91f1-99fb0c9231dc">
+                        <div class="caixa-campos">
+                          <div class="form-group">
+                            <input 
+                              type="text" 
+                              class="form-control"
+                              id="nome-form" 
+                              placeholder="Nome completo"
+                              name="name"
+                              type="text"
+                              pattern="^\D{2,}\s[\D\s]{2,}$"
+                              title="Digite seu nome completo"
+                              required>
+                          </div>
+                          <div class="form-group">
+                            <input 
+                              class="form-control" 
+                              id="email-form" 
+                              placeholder="E-mail"
+                              name="email"
+                              type="email"
+                              required
+                            >
+                          </div>
+                          <input name="redirectTo" type="hidden" value="https://gama.academy" />
+                          <input name="debugMode" type="hidden" value="true" />
+                        </div>
+                        <div class="caixa-send">
+                          <button type="submit" class="btn" id="bnt-enviar" data-toggle="modal" data-target="#thankyouModal">
+                            <img src="./img/botao-enviar-header-web.svg" alt="..." id="img-botao">
+                          </button>
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+                    
+                  </div>
+                  <div class="aparecer-medio">
+                    <div id="caixa-form" class="row">
+                      <form id="formulario"  method="POST" action="https://smtl.gama.academy/leads/7f2b9632-dcac-11ea-91f1-99fb0c9231dc">
+                        <div class="caixa-campos">
+                          <div class="form-group">
+                            <input 
+                              type="text" 
+                              class="form-control"
+                              id="nome-form" 
+                              placeholder="Nome completo"
+                              name="name"
+                              type="text"
+                              pattern="^\D{2,}\s[\D\s]{2,}$"
+                              title="Digite seu nome completo"
+                              required>
+                          </div>
+                          <div class="form-group">
+                            <input 
+                              class="form-control" 
+                              id="email-form" 
+                              placeholder="E-mail"
+                              name="email"
+                              type="email"
+                              required
+                            >
+                          </div>
+                          <input name="redirectTo" type="hidden" value="https://gama.academy" />
+                          <input name="debugMode" type="hidden" value="true" />
+                        </div>
+                        <div class="caixa-send">
+                          <button type="submit" class="btn" id="bnt-enviar" data-toggle="modal" data-target="#thankyouModal">
+                            <img src="./img/botao-enviar-header-web.svg" alt="..." id="img-botao">
+                          </button>
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+                </div>
 
                   <!-- Parte 2 -->
 
@@ -162,34 +243,8 @@
                           </span>
                         </button>
                       </div>
-                      <div class="col-md-6 col-sm-12" id="caixa-form">
-                        <form id="formulario"  method="POST" action="https://smtl.gama.academy/leads/7f2b9632-dcac-11ea-91f1-99fb0c9231dc">
-                          <div class="form-group">
-                            <input 
-                              type="text" 
-                              class="form-control"
-                              id="nome-form" 
-                              placeholder="Nome completo"
-                              name="name"
-                              type="text"
-                              pattern="^\D{2,}\s[\D\s]{2,}$"
-                              title="Digite seu nome completo"
-                              required>
-                          </div>
-                          <div class="form-group">
-                            <input 
-                              class="form-control" 
-                              id="email-form" 
-                              placeholder="E-mail"
-                              name="email"
-                              type="email"
-                              required
-                            >
-                          </div>
-                          <input name="redirectTo" type="hidden" value="https://gama.academy" />
-                          <input name="debugMode" type="hidden" value="true" />
-                          <button type="submit" class="btn btn-dark" id="bnt-enviar" data-toggle="modal" data-target="#thankyouModal">Enviar</button>
-                        </form>
+                      <div class="col-md-6 col-sm-12">
+
                       </div>
                     </div>                      
                   </div>

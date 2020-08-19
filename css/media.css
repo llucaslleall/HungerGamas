@@ -1,3 +1,45 @@
+@media (max-width: 1000px) {
+    .caixa-campos {
+        width: 70%;
+        float: left;
+    }
+    
+    .caixa-send {
+        width: 30%;
+        float: left;
+        height: 10px;
+    }
+}
+
+@media (max-width: 800px) {
+    .sumir-medio {
+        display: none;
+    }
+
+    .aparecer-medio {
+        display: inline;
+    }
+
+    #caixa-form {
+        width: 100%;
+    }
+
+    .caixa-campos {
+        width: 85%;
+        float: left;
+    }
+    
+    .caixa-send {
+        width: 15%;
+        float: left;
+        height: 10px;
+    }
+
+    #formulario {
+        width: 100%;
+    }
+}
+
 @media (max-width: 768px) {
     #caixa-check {
         height: 150px;   
@@ -55,11 +97,28 @@
         
         height: 300px;
         border-radius: 60px;
-        margin: 0 2%;
     }
 
     .jumbotron a {
         margin-left: 0;
         margin-top:2%;
     }
+
 }
+
+@media (max-width: 600px) {
+    .jumbotron-with-background {
+        margin: 0 10%;
+    }
+}
+
+@media (max-width: 400px) {
+    .sumir-pequeno {
+        display: none;
+    }
+
+    .sumir-grande {
+        display: inline;
+    }
+}
+
