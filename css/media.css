@@ -210,4 +210,9 @@
     #caixa-texto {
         padding: 8%;
     }
+
+    #caixa-check{        
+        display: flex;
+        margin-bottom: 25%;
+    }
 }
