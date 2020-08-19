@@ -314,3 +314,22 @@ footer {
     width: 100%;
     padding: 0 4% 0 8%;
 }
+
+.icone {
+    background-color: #9DEAA2;
+    border-radius: 50%; 
+    width: 210px;
+    height: 210px;
+    display:flex;
+}
+
+.icone img{
+    width: 150px;
+    height: 150px;
+    margin: auto;
+}
+
+.texto {
+    width: 210px;
+    display:flex;
+}
