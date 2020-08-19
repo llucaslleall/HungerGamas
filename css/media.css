@@ -162,6 +162,11 @@
         height: 10px;
     }
     
+    .row {
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+    
 }
 
 @media (max-width: 400px) {
@@ -190,3 +195,14 @@
     }
 }
 
+#parte1 {
+    background-color: black;
+}
+
+#parte2 {
+    background-color: blue;
+}
+
+#parte3 {
+    background-color: red;
+}
