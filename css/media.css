@@ -206,4 +206,8 @@
         height: 120px;
         margin: auto;
     }
+
+    #caixa-texto {
+        padding: 10%;
+    }
 }
