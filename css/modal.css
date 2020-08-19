@@ -1,0 +1,32 @@
+/* Modal Obrigado */
+
+.webicons {
+    display: flex;
+
+}
+
+.nav-link a{
+    margin: 0;
+}
+
+#icon1 {
+  width: 40px;
+}
+
+#icon2 {
+    width: 20px;
+}
+
+.text_thakyou {
+    margin-top: 1.5em;
+}
+
+#click {
+    text-decoration: none;
+    color: #000000;
+    
+}
+
+.webicons a{
+    margin: 0 
+}
