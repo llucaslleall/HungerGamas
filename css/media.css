@@ -46,6 +46,12 @@
         display: inline;
     }
 
+    #bnt-enviar {    
+        width: 50%;
+        margin-right: 25%;
+        margin-left: 25%;
+    }
+
     #caixa-form {
         width: 100%;
     }
