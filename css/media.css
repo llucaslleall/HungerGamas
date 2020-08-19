@@ -39,10 +39,6 @@
     #formulario {
         width: 100%;
     }
-    
-    .jumbotron-with-background {
-        background-position: 50% 50%;
-    }
 
 }
 
@@ -97,7 +93,6 @@
 
     .jumbotron-with-background {
         background-image: url('../img/ilustra.svg');
-        background-position: 100% 50%;
         background-size: 200px;
         padding-right: 5%;
         
@@ -116,6 +111,19 @@
     .jumbotron-with-background {
         margin: 0 10%;
     }
+
+    .caixa-campos {
+        padding-left: 3%;
+        width: 85%;
+        float: left;
+    }
+    
+    .caixa-send {
+        width: 15%;
+        float: left;
+        height: 10px;
+    }
+    
 }
 
 @media (max-width: 400px) {
@@ -125,6 +133,22 @@
 
     .sumir-grande {
         display: inline;
+    }
+
+    .jumbotron-with-background {
+        background-position: 50% 50%;
+    }   
+
+    .caixa-campos {
+        padding-left: 3%;
+        width: 80%;
+        float: left;
+    }
+    
+    .caixa-send {
+        width: 20%;
+        float: left;
+        height: 10px;
     }
 }
 

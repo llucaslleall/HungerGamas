@@ -312,4 +312,5 @@ footer {
 .aparecer-medio {
     display: none;
     width: 100%;
+    padding: 0 4% 0 8%;
 }
