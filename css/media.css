@@ -154,6 +154,11 @@
         text-align: center;
     }
 
+    #assine-agora {
+        justify-content: flex-start;
+    }
+    
+
 }
 
 @media (max-width: 600px) {
