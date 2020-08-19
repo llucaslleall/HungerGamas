@@ -1,8 +1,11 @@
 # dependencies
 /conn
+/interno
 
 # testing
 /conn
+/interno
 
 # production
 /conn
+/interno
